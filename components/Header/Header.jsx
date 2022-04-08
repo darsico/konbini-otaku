@@ -10,7 +10,7 @@ const Header = ({ header }) => {
   const [showMenu, setShowMenu] = useState(false);
   const siteURL = "http://estacion-otaku.azurewebsites.net";
   const { headerMenuItems, siteDescription, siteTitle, siteLogoUrl, favicon } = header || {};
-  console.log(siteTitle);
+
   return (
     <>
       <Head>

@@ -4,24 +4,24 @@ import Header from "../components/header/Header";
 import Hero from "../components/Hero/Hero";
 import Products from "../components/Products/Products";
 import { GET_PRODUCT_ENDPOINT, HEADER_FOOTER_ENDPOINT } from "../utils/constants/endpoints";
+import { getProductsData } from "../utils/constants/products";
 
 export const getStaticProps = async () => {
   const { data: headerFooter } = await axios.get(HEADER_FOOTER_ENDPOINT);
-  const { data: products } = await axios.get("http://localhost:3000/api/get-products");
+  const { data: products } = await getProductsData();
 
-  const data = {
-    headerFooter,
-    products,
-  };
   return {
-    props: data || {},
+    props: {
+      headerFooter: headerFooter.data || {},
+      products: products || {},
+    },
+
     revalidate: 1,
   };
 };
 
 export default function Home({ headerFooter, products }) {
-  const { header, footer } = headerFooter.data || {};
-  const { products: productList } = products;
+  const { header, footer } = headerFooter || {};
 
   return (
     <>
@@ -29,7 +29,7 @@ export default function Home({ headerFooter, products }) {
 
       <main>
         <Hero header={header} />
-        <Products productList={productList} />
+        <Products products={products} />
       </main>
 
       <footer>
