@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.5.0",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
     "@woocommerce/woocommerce-rest-api": "^1.0.1",
     "axios": "^0.26.1",
     "nanoid": "^3.3.2",

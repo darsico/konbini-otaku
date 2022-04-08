@@ -5,18 +5,21 @@ import sanitizeHtml from "sanitize-html";
 import AddToCart from "../Cart/AddToCart";
 
 const Product = ({ product }) => {
+  const { type, slug, id, name, src, price_html } = product;
+
   const img = product.images[0];
-  const productType = product.type;
+  const productType = type;
+
   return (
     <div>
-      <Link key={product.id} href={product.permalink}>
+      <Link key={product.id} href={`/products/${slug}`}>
         <a className="group">
           <div className="w-full aspect-[4/3]   rounded-lg  group-hover:opacity-75 shadow">
             <figure style={{ width: "100%", height: "100%", position: "relative" }}>
               <Image
                 layout="fill"
                 objectFit="contain"
-                className="object-center object-cover group-hover:opacity-75"
+                className="object-cover object-center group-hover:opacity-75"
                 src={DEFAULT_IMG_URL + img.src}
                 alt={img.alt}
                 title={product.name}
