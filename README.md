@@ -8,7 +8,7 @@ El presente proyecto constó de proponer una web denominada "Konbini Otaku".
 - Ubicarse en la carpeta que contendrá el proyecto
 - Abrir la terminal de comandos
   - git clone https://github.com/EstacionOtaku/konbini-otaku.git
-  - cd Estacion-Otaku
+  - cd konbini-otaku
   - npm install
   - npm start
     - Levanta un servidor con la aplicación
@@ -33,7 +33,7 @@ En la segunda etapa, para desarrollar la web del proyecto, hemos utilizado los s
 <table>
     <thead>
       <tr>
-        <th>React</th>
+        <th>Next.js</th>
         <th>HTML</th>
         <th>CSS</th>
         <th>JavaScript</th>
@@ -50,7 +50,7 @@ En la segunda etapa, para desarrollar la web del proyecto, hemos utilizado los s
     <tbody>
       <tr>
         <td>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" width="100%" />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKwA9TLFYITFJKMFqenvcFPqVtd4z-yyjkVV8FRVx1wXLWku2sSqFyYVQ5lwtmxtxJGFk&usqp=CAU" width="100%" />
         </td>
         <td>
           <img src="https://i.postimg.cc/rF6WrLjr/html.png" width="100%" />
