@@ -38,8 +38,9 @@ En la segunda etapa, para desarrollar la web del proyecto, hemos utilizado los s
         <th>CSS</th>
         <th>JavaScript</th>
         <th>Axios</th>
-        <th>React Icons</th>
-        <th>Bootstrap</th>
+        <th>WOO Commerce Rest API</th>
+        <th>Wordpress</th>
+        <th>React Icons</th>   
         <th>Tailwind CSS</th>   
         <th>Figma</th>
         <th>Photoshop</th>
@@ -65,12 +66,16 @@ En la segunda etapa, para desarrollar la web del proyecto, hemos utilizado los s
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Axios_logo_%282017%29.svg/1200px-Axios_logo_%282017%29.svg.png" width="100%" />
         </td>
         <td>
-          <img            src="https://camo.githubusercontent.com/48d099290b4cb2d7937bcd96e8497cf1845b54a810a6432c70cf944b60b40c77/68747470733a2f2f7261776769742e636f6d2f676f72616e67616a69632f72656163742d69636f6e732f6d61737465722f72656163742d69636f6e732e737667" width="100%" />
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMk0tTzWwBwt2GZVdkLxWn5YqSafX7n81hhxOQXZaSz01TCPvh88NKLemz8uzOcF3Ch3g&usqp=CAU" width="100%" />
         </td>
         <td>
           <img
-            src="https://ironsolutionsit.com.ar/img/works/bootstrap.jpg" width="100%" />
+            src="https://www.neolo.com/aprende/wp-content/uploads/2014/10/wordpress-logo-simplified-rgb.png" width="100%" />
         </td>
+        <td>
+          <img            src="https://camo.githubusercontent.com/48d099290b4cb2d7937bcd96e8497cf1845b54a810a6432c70cf944b60b40c77/68747470733a2f2f7261776769742e636f6d2f676f72616e67616a69632f72656163742d69636f6e732f6d61737465722f72656163742d69636f6e732e737667" width="100%" />
+        </td>    
         <td>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" width="100%" />
