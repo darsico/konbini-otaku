@@ -22,7 +22,7 @@ const nextConfig = {
   },
   reactStrictMode: true,
   images: {
-    domains: [allowedImageWPDomain, "estacion-otaku.azurewebsites.net"],
+    domains: [allowedImageWPDomain, "estacion-otaku.azurewebsites.net", "cdn.pixabay.com", "i.ytimg.com"],
   },
 };
 
