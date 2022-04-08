@@ -7,7 +7,7 @@ El presente proyecto constó de proponer una web denominada "Konbini Otaku".
 ## Instalación 💻
 - Ubicarse en la carpeta que contendrá el proyecto
 - Abrir la terminal de comandos
-  - git clone https://github.com/EstacionOtaku/Estacion-Otaku.git
+  - git clone https://github.com/EstacionOtaku/konbini-otaku.git
   - cd Estacion-Otaku
   - npm install
   - npm start
