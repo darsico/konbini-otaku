@@ -1,47 +1,136 @@
+# Konbini Otaku ☯💬🛒⛩️🎌 - Reto Final (parte 2)
 
-This site is consuming data from
-[estacion-otaku.azurewebsites.net](http://estacion-otaku.azurewebsites.net/wp-admin)
-## Dependencias
-```bash
-  "dependencies": {
-    "@headlessui/react": "^1.5.0",
-    "@woocommerce/woocommerce-rest-api": "^1.0.1",
-    "axios": "^0.26.1",
-    "classnames": "^2.3.1",
-    "nanoid": "^3.3.2",
-    "next": "12.1.4",
-    "prop-types": "^15.8.1",
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.4",
-    "eslint": "8.12.0",
-    "eslint-config-next": "12.1.4",
-    "postcss": "^8.4.12",
-    "tailwindcss": "^3.0.23"
-  }
+El presente proyecto constó de proponer una web denominada "Konbini Otaku". 
+
+[![logo-konbini.jpg](https://i.postimg.cc/QM4tjzT9/logo-konbini.jpg)](https://postimg.cc/HJMH2B3d)
+
+## Instalación 💻
+- Ubicarse en la carpeta que contendrá el proyecto
+- Abrir la terminal de comandos
+  - git clone https://github.com/EstacionOtaku/Estacion-Otaku.git
+  - cd Estacion-Otaku
+  - npm install
+  - npm start
+    - Levanta un servidor con la aplicación
+  - npm run build
+    - Genera un paquete para el despliegue en producción
+
+## Esquemas
+
+## Vistas del proyecto
+
+### Vista pantalla completa en laptop
+
+### Vista responsive en mobile
+
+## Lenguajes y herramientas
+En la primera etapa, para el diseño gráfico, esquemas, mocks, y linea gráfica de la marca "Estación Otaku" y estudio UX/UI, hemos utilizado las siguientes herramientas:
+       
+- Para visualizar todos los gráficos y esquemas, visitar los siguientes links:
+    
+En la segunda etapa, para desarrollar la web del proyecto, hemos utilizado los siguientes lenguajes y tecnologías durante el módulo Front End del Bootcamp:
+  
+<table>
+    <thead>
+      <tr>
+        <th>React</th>
+        <th>HTML</th>
+        <th>CSS</th>
+        <th>JavaScript</th>
+        <th>SASS</th>
+        <th>Axios</th>
+        <th>React Icons</th>
+        <th>Bootstrap</th>
+        <th>Json</th>
+        <th>Tailwind CSS</th>
+        <th>Slick.js</th>
+        <th>Sweetalert2</th>
+        <th>Figma</th>
+        <th>Photoshop</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" width="100%" />
+        </td>
+        <td>
+          <img src="https://i.postimg.cc/rF6WrLjr/html.png" width="100%" />
+        </td>
+        <td>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/544px-CSS3_logo_and_wordmark.svg.png" width="100%" />
+        </td>
+        <td>
+          <img
+            src="https://eduliticas.com/wp-content/uploads/2018/01/Javascript-shield.png" width="100%" />
+        </td>
+        <td>
+          <img src="https://miro.medium.com/max/512/1*9U1toerFxB8aiFRreLxEUQ.png" width="100%" />
+        </td>      
+        <td>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Axios_logo_%282017%29.svg/1200px-Axios_logo_%282017%29.svg.png" width="100%" />
+        </td>
+        <td>
+          <img
+            src="https://camo.githubusercontent.com/48d099290b4cb2d7937bcd96e8497cf1845b54a810a6432c70cf944b60b40c77/68747470733a2f2f7261776769742e636f6d2f676f72616e67616a69632f72656163742d69636f6e732f6d61737465722f72656163742d69636f6e732e737667" width="100%" />
+        </td>
+        <td>
+          <img
+            src="https://ironsolutionsit.com.ar/img/works/bootstrap.jpg" width="100%" />
+        </td>
+        <td>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/1200px-JSON_vector_logo.svg.png" width="100%" />
+        </td> 
+        <td>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" width="100%" />
+        </td>
+        <td>
+          <img
+            src="https://cms-assets.tutsplus.com/uploads/users/30/posts/31355/preview_image/pre.png" width="100%" />
+        </td>  
+        <td>
+          <img
+            src="https://avatars.githubusercontent.com/u/35137722?s=200&v=4" width="100%" />
+        </td>
+        <td>
+          <img src="https://cdn.iconscout.com/icon/free/png-256/figma-3628771-3030133.png" width="100%" />
+        </td>
+        <td>
+          <img src="https://logodix.com/logo/1074347.png" width="100%" />
+        </td>    
+      </tr>
+    </tbody>
+</table>
+
+## Contribuciones
+
+Te pedimos leas los códigos de conducta de GitHub y el presente "README.md" para poder utilizar y contribuir con el proyecto. Se recomienda el uso del proyecto únicamente para fines académicos y educativos. Prohibido su uso para fines comerciales.
+  
 ```
+Todos los derechos reservados.
+```
+  
+## Autores
+### Neko Coders
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Cerpa Salas, Valeria**
+- **Chan Yance, Bruno**
+- **Lazarinos Armendariz, Jeanfranco**
+- **Huamán Lazo, Diego**
+- **Palomino Portugal, Clarissa**
+- **Peña Pacora, Gina**
+- **Yong Zea, Paula**
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Licencia
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Este proyecto contiene una licencia MIT - ver el archivo adjunto en el repositorio para conocer los detalles.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Agradecimientos
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Profesor Elliot Garamendi, por la enseñanza
+- Fundación Es Hoy y CODIGO, por la oportunidad de formarnos en desarrollo web.
+   
+Este proyecto fue desarrollado con ❤️ por Neko coders
