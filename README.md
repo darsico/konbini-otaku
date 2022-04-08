@@ -37,11 +37,9 @@ En la segunda etapa, para desarrollar la web del proyecto, hemos utilizado los s
         <th>HTML</th>
         <th>CSS</th>
         <th>JavaScript</th>
-        <th>SASS</th>
         <th>Axios</th>
         <th>React Icons</th>
         <th>Bootstrap</th>
-        <th>Json</th>
         <th>Tailwind CSS</th>   
         <th>Figma</th>
         <th>Photoshop</th>
@@ -61,26 +59,18 @@ En la segunda etapa, para desarrollar la web del proyecto, hemos utilizado los s
         <td>
           <img
             src="https://eduliticas.com/wp-content/uploads/2018/01/Javascript-shield.png" width="100%" />
-        </td>
-        <td>
-          <img src="https://miro.medium.com/max/512/1*9U1toerFxB8aiFRreLxEUQ.png" width="100%" />
-        </td>      
+        </td>         
         <td>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Axios_logo_%282017%29.svg/1200px-Axios_logo_%282017%29.svg.png" width="100%" />
         </td>
         <td>
-          <img
-            src="https://camo.githubusercontent.com/48d099290b4cb2d7937bcd96e8497cf1845b54a810a6432c70cf944b60b40c77/68747470733a2f2f7261776769742e636f6d2f676f72616e67616a69632f72656163742d69636f6e732f6d61737465722f72656163742d69636f6e732e737667" width="100%" />
+          <img            src="https://camo.githubusercontent.com/48d099290b4cb2d7937bcd96e8497cf1845b54a810a6432c70cf944b60b40c77/68747470733a2f2f7261776769742e636f6d2f676f72616e67616a69632f72656163742d69636f6e732f6d61737465722f72656163742d69636f6e732e737667" width="100%" />
         </td>
         <td>
           <img
             src="https://ironsolutionsit.com.ar/img/works/bootstrap.jpg" width="100%" />
         </td>
-        <td>
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/1200px-JSON_vector_logo.svg.png" width="100%" />
-        </td> 
         <td>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" width="100%" />
