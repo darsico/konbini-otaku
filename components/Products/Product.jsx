@@ -31,7 +31,7 @@ const Product = ({ product }) => {
           <div dangerouslySetInnerHTML={{ __html: sanitizeHtml(product.price_html) }}></div>
         </a>
       </Link>
-      {"simple" === productType ? <AddToCart product={product} /> : null}
+      {/* {"simple" === productType ? <AddToCart product={product} /> : null} */}
     </div>
   );
 };

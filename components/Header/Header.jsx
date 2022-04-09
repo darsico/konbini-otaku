@@ -12,12 +12,12 @@ const Header = ({ header }) => {
   const { headerMenuItems, siteTitle, siteLogoUrl } = header || {};
 
   return (
-    <>
+    <header>
       <nav className="z-10 dark:bg-gray-900">
-        <div>
+        <div className="container mx-auto">
           <div className="relative">
             {/* For large screens */}
-            <div className="px-6 dark:bg-gray-900 bg-gray-50 py-9">
+            <div className="px-6 py-4 dark:bg-gray-900 bg-gray-50">
               <div className="container flex items-center justify-between mx-auto">
                 {/* Logo */}
                 <Link href="/" passHref>
@@ -212,7 +212,7 @@ const Header = ({ header }) => {
           </div>
         </div>
       </nav>
-    </>
+    </header>
   );
 };
 
