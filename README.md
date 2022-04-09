@@ -11,7 +11,14 @@ El presente proyecto constó de proponer una web denominada "Konbini Otaku".
   - cd konbini-otaku
   - npm run dev
     - Levanta un servidor con la aplicación
-    
+- Lo siguiente debe estar en el proyecto
+NEXT_PUBLIC_WORDPRESS_URL=https://estacion-otaku.azurewebsites.net
+
+NEXT_PUBLIC_URL=http://localhost:3000
+
+WC_CONSUMER_KEY=ck_56011beaeee6955609266bc6c1b9f83e28c3782d
+WC_CONSUMER_SECRET=cs_3087ac7503a3be93f1f202f8d51833c928bb9f88 
+
 ## Esquemas
 
 ## Vistas del proyecto
