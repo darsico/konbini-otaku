@@ -2,8 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-import { IoLogoWhatsapp } from "react-icons/io";
+
 import sanitizeHtml from "sanitize-html";
+import WhatsAppButton from "../../components/Buttons/WhatsAppButtons";
 import { DEFAULT_IMG_URL } from "../../utils/constants/images";
 import { getProductsData } from "../../utils/constants/products";
 
@@ -151,10 +152,11 @@ const ProductPage = ({ productItem }) => {
                   Pagar ahora {product.price}
                 </button>
                 {/*  BOTON DE WHATS APP */}
-                <button className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white transition-colors border border-transparent rounded-md bg-emerald-600 hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500">
-                  Pedir en <IoLogoWhatsapp className="ml-3 scale-150" />
-                </button>
+                <WhatsAppButton productItem={productItem} />
               </div>
+              <p className="mt-5 text-xs text-gray-800">
+                *Pedidos por WhatsApp: Si estas en una computadora, asegúrate de que este activado el WhatsApp Web
+              </p>
             </div>
             {/* Price and ADD TO CART  END */}
           </div>
