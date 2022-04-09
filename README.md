@@ -1,6 +1,6 @@
 # Konbini Otaku ☯💬🛒⛩️🎌 - Reto Final (parte 2)
 
-El presente proyecto constó de proponer una web denominada "Konbini Otaku". 
+El presente proyecto constó de proponer una web denominada "Konbini Otaku". La cual es una tienda virtual en la que podrás adquirir productos, regalos y souveniers sobre en la temática del mundo de los animes. Kombini Otaku, forma parte de la marca "Estación Otaku" y será el lugar ideal donde 
 
 [![logo-konbini.jpg](https://i.postimg.cc/QM4tjzT9/logo-konbini.jpg)](https://postimg.cc/HJMH2B3d)
 
