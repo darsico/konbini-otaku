@@ -9,12 +9,9 @@ El presente proyecto constó de proponer una web denominada "Konbini Otaku".
 - Abrir la terminal de comandos
   - git clone https://github.com/EstacionOtaku/konbini-otaku.git
   - cd konbini-otaku
-  - npm install
-  - npm start
+  - npm run dev
     - Levanta un servidor con la aplicación
-  - npm run build
-    - Genera un paquete para el despliegue en producción
-
+    - 
 ## Esquemas
 
 ## Vistas del proyecto
