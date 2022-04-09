@@ -2,7 +2,7 @@
 
 El presente proyecto constó de proponer una web denominada "Konbini Otaku". La cual es una tienda virtual en la que podrás adquirir productos, regalos y souveniers sobre en la temática del mundo de los animes. Kombini Otaku, forma parte de la marca "Estación Otaku" y será el lugar ideal donde 
 
-[![logo-konbini.jpg](https://i.postimg.cc/QM4tjzT9/logo-konbini.jpg)](https://postimg.cc/HJMH2B3d)
+<h2 align="center"> <img src="https://i.postimg.cc/QM4tjzT9/logo-konbini.jpg)](https://postimg.cc/HJMH2B3d"></h2>
 
 ## Instalación 💻
 - Ubicarse en la carpeta que contendrá el proyecto
@@ -70,7 +70,7 @@ En la segunda etapa, para desarrollar la web del proyecto, hemos utilizado los s
         </td>         
         <td>
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Axios_logo_%282017%29.svg/1200px-Axios_logo_%282017%29.svg.png" width="100%" />
+            src="https://logodix.com/logo/1916621.png" width="100%" />
         </td>
         <td>
           <img
