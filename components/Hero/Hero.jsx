@@ -1,5 +1,9 @@
-const Hero = ({ header }) => {
-  const { headerMenuItems, siteDescription, siteTitle, siteLogoUrl } = header || {};
+import Link from "next/link";
+
+const Hero = ({ header, products }) => {
+  const { siteDescription, siteTitle } = header || {};
+  const latestProduct = products[0];
+
   return (
     <header className="relative overflow-hidden bg-white sans">
       <div className="mx-auto max-w-7xl">
@@ -15,13 +19,12 @@ const Hero = ({ header }) => {
               </p>
               <div className="justify-center mt-5 sm:mt-8 sm:flex">
                 <div className="rounded-md shadow ">
-                  <a
-                    href="#"
-                    className="flex items-center justify-center w-full px-6 py-4 mx-auto text-base font-medium text-white bg-gray-900 border border-transparent border-none divide-x divide-gray-600 rounded-md hover:bg-gray-700 md:text-lg"
-                  >
-                    <span className="pr-6">Obtén los nuevos stickers</span>
-                    <span className="pl-6">S/.20</span>
-                  </a>
+                  <Link href={`/products/${latestProduct.id}`}>
+                    <a className="flex items-center justify-center w-full px-6 py-4 mx-auto text-base font-medium text-white bg-gray-900 border border-transparent border-none divide-x divide-gray-600 rounded-md hover:bg-gray-700 md:text-lg">
+                      <span className="pr-6">{latestProduct.name}</span>
+                      <span className="pl-6">S/.{latestProduct.sale_price}</span>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>

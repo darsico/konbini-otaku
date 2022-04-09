@@ -1,23 +1,18 @@
-import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
+import { siteURL } from "../../utils/constants/siteURL";
 import NavItemsDesktop from "./NavItemsDesktop";
 import NavItemsMobile from "./NavItemsMobile";
 
 const Header = ({ header }) => {
   const [searchInput, setSearchInput] = useState(true);
-  const [mdOptionsToggle, setMdOptionsToggle] = useState(true);
   const [showMenu, setShowMenu] = useState(false);
-  const siteURL = "https://estacion-otaku.azurewebsites.net";
-  const { headerMenuItems, siteDescription, siteTitle, siteLogoUrl, favicon } = header || {};
+
+  const { headerMenuItems, siteTitle, siteLogoUrl } = header || {};
 
   return (
     <>
-      <Head>
-        <title>{siteTitle} || Tienda Otaku</title>
-        <meta name="description" content={siteDescription} />
-        <link rel="icon" href={siteURL + favicon} />
-      </Head>
       <nav className="z-10 dark:bg-gray-900">
         <div>
           <div className="relative">
@@ -25,9 +20,11 @@ const Header = ({ header }) => {
             <div className="px-6 dark:bg-gray-900 bg-gray-50 py-9">
               <div className="container flex items-center justify-between mx-auto">
                 {/* Logo */}
-                <figure className="w-20 cursor-pointer md:w-30">
-                  <img layout="fill" className="w-full" src={siteURL + siteLogoUrl} alt={`Logo de ${siteTitle}`} />
-                </figure>
+                <Link href="/" passHref>
+                  <figure className="w-20 cursor-pointer md:w-30">
+                    <img layout="fill" className="w-full" src={siteURL + siteLogoUrl} alt={`Logo de ${siteTitle}`} />
+                  </figure>
+                </Link>
                 {/*  nav items in desktop */}
                 <NavItemsDesktop headerMenuItems={headerMenuItems} />
                 <div className="flex items-center justify-end space-x-4 md:w-2/12 xl:space-x-8">

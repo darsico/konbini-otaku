@@ -135,10 +135,12 @@ const ProductPage = ({ productItem }) => {
             <div className="pt-4 pb-8 lg:pt-6 lg:pb-16 lg:col-start-1 lg:col-span-2 ">
               <h3 className="sr-only">Description</h3>
               <div className="space-y-6">
-                <div
-                  dangerouslySetInnerHTML={{ __html: sanitizeHtml(short_description) }}
-                  className="text-base text-gray-900"
-                ></div>
+                {short_description || (
+                  <div
+                    dangerouslySetInnerHTML={{ __html: sanitizeHtml(short_description) }}
+                    className="text-base text-gray-900"
+                  ></div>
+                )}
               </div>
             </div>
             {/* Price and ADD TO CART */}
@@ -148,6 +150,7 @@ const ProductPage = ({ productItem }) => {
                 <button className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white transition-colors bg-gray-900 border border-transparent rounded-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">
                   Pagar ahora {product.price}
                 </button>
+                {/*  BOTON DE WHATS APP */}
                 <button className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white transition-colors border border-transparent rounded-md bg-emerald-600 hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500">
                   Pedir en <IoLogoWhatsapp className="ml-3 scale-150" />
                 </button>
