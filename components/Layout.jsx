@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Header from "./Header/Header";
+import Header from "./Navbar/Header";
 import Footer from "./Footer/Footer.jsx";
 import { siteURL } from "../utils/constants/siteURL";
 

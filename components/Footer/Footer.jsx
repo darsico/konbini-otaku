@@ -2,7 +2,6 @@ import { siteURL } from "../../utils/constants/siteURL";
 
 const Footer = ({ footer, header }) => {
   const { siteTitle, siteLogoUrl } = header || {};
-  console.log(footer);
   return (
     <footer className="px-4 divide-y dark:bg-coolGray-800 dark:text-coolGray-100">
       <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
