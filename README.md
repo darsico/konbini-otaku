@@ -11,7 +11,7 @@ El presente proyecto constó de proponer una web denominada "Konbini Otaku".
   - cd konbini-otaku
   - npm run dev
     - Levanta un servidor con la aplicación
-    - 
+    
 ## Esquemas
 
 ## Vistas del proyecto
