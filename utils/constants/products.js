@@ -18,6 +18,6 @@ export const getProductsData = async (perPage) => {
 };
 
 
-export const getSingleProductData = async (id) => {
-  return await api.get(`products/${id}`);
-}
+// export const getSingleProductData = async (id) => {
+//   return await api.get(`products/${id}`);
+// }

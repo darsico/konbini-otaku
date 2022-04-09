@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
@@ -106,13 +107,17 @@ const ProductPage = ({ productItem }) => {
           <a>Atrás</a>
         </Link>
         <section className="grid items-start w-11/12 , grid-cols-1 md:grid-cols-2 p-6 mx-auto md:max-w-screen-lg md:flex-row gap-4 lg:gap-5 ">
-          <figure className="aspect-[4/4]  sm:rounded sm:overflow-hidden lg:aspect-w-3 lg:aspect-h-4">
-            <img
-              src={DEFAULT_IMG_URL + src}
-              alt={alt}
-              className="object-cover object-center w-full h-full rounded-lg"
-            />
-          </figure>
+          <div className="aspect-[4/4]  sm:rounded sm:overflow-hidden lg:aspect-w-3 lg:aspect-h-4">
+            <figure style={{ width: "100%", height: "100%", position: "relative" }}>
+              <Image
+                src={DEFAULT_IMG_URL + src}
+                alt={alt}
+                className="object-cover object-center w-full h-full rounded-lg "
+                layout="fill"
+                objectFit="contain"
+              />
+            </figure>
+          </div>
           {/* Product info */}
           <div className="max-w-2xl mx-auto pb-16 px-4 sm:px-0 lg:pt-0 lg:pb-24 lg:grid lg:grid-cols-1 lg:grid-rows-[auto,auto,1fr] ">
             <div className="lg:col-span-2 ">
