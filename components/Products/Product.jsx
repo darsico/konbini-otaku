@@ -12,7 +12,7 @@ const Product = ({ product }) => {
 
   return (
     <div>
-      <Link key={product.id} href={`/products/${slug}`}>
+      <Link key={id} href={`/products/${id}`}>
         <a className="group">
           <div className="w-full aspect-[4/3]   rounded-lg  group-hover:opacity-75 shadow">
             <figure style={{ width: "100%", height: "100%", position: "relative" }}>
@@ -22,11 +22,11 @@ const Product = ({ product }) => {
                 className="object-cover object-center group-hover:opacity-75"
                 src={DEFAULT_IMG_URL + img.src}
                 alt={img.alt}
-                title={product.name}
+                title={name}
               />
             </figure>
           </div>
-          <h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>
+          <h3 className="mt-4 text-sm text-gray-700">{name}</h3>
           <p className="mt-1 text-lg font-medium text-gray-900"></p>
           <div dangerouslySetInnerHTML={{ __html: sanitizeHtml(product.price_html) }}></div>
         </a>

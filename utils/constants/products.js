@@ -9,11 +9,15 @@ const api = new WooCommerceRestApi({
 
 /**
  * Get Products.
- *
- * @return {Promise<void>}
  */
+
 export const getProductsData = async (perPage) => {
   return await api.get("products", {
     per_page: perPage || 20,
   });
 };
+
+
+export const getSingleProductData = async (id) => {
+  return await api.get(`products/${id}`);
+}
